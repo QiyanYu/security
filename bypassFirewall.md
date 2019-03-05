@@ -21,29 +21,29 @@ The Shadowsocks local component (ss-local) acts like a traditional SOCKS5 server
 I use Digital Ocean cloud server. This is much cheaper than others such as AWS/Google Cloud. I setup a ubuntu server. (You can got 100 dollars in first 60 days)
 
 ![](pic/1.jpg)
-
+#### 2. Login Cloud Server
  After finish setup, I got the Ip address and password. So using terminal to ssh into this cloud server.
 ![](pic/3.png)
-
+#### 3. Setup Password
 The first time when you login you need to reset the password of cloud server.
 ![](pic/4.png)
-
+#### 4. Update server's software
 Update and upgrade the software on the server.
 ![](pic/6.png)
 ![](pic/7.png)
-
+#### 5. Install Shadowsocks
 Install the shadowsocks in the server.
 ![](pic/8.png)
+#### 6. Start Shadowsocks Server
+Type screen to start a screen session and start a shadowsocks server. Part of "-m" is the stream cipher we choose. Part of "-k" is the password. Part of "-s" is the IP address.
 
-Type screen to start a screen session and start a shadowsocks server. Part of "-m" is the stream cipher we choose. 
 ![](pic/10.png)
-
-Part of "-k" is the password. Part of "-s" is the IP address.
 ![](pic/11.png)
 
+#### 7. Download client
 Then I download the mac os client.
 ![](pic/12.png)
-
+#### 8. Setup client
 In this app, choose Manual Mode and click Server Preferences.
 
 ![](pic/13.png)
